@@ -1,0 +1,32 @@
+[
+  {
+    "description":"firstdemo",
+    "request":{
+      "uri":"/getNoParamDemo",
+      "method":"get"
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"这是一个无参数的get请求"
+    }
+  },
+  {
+    "description":"firstdemo2",
+    "request":{
+      "uri":"/getParamDemo",
+      "method":"get",
+      "queries":{
+        "name":"huhansan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"这是一个有参数的get请求"
+    }
+  }
+]

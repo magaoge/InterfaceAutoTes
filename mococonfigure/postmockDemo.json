@@ -1,0 +1,38 @@
+[
+  {
+    "description":"模拟一个post请求",
+    "request":{
+      "uri":"/postNoParamDemo",
+      "method":"post"
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "status":"200",
+      "json":{
+        "message":"这是一个无参数的post请求"
+      }
+    }
+  },
+  {
+    "description":"模拟一个post请求",
+    "request":{
+      "uri":"/postParamDemo",
+      "method":"post",
+      "forms":{
+        "name":"huhansan",
+        "age":"18"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "status": "200",
+      "json": {
+        "message": "这是一个有参数的post请求"
+      }
+    }
+  }
+]

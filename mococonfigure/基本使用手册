@@ -1,0 +1,10 @@
+在moco框架jar包下运行该dos窗口命令行，可本地启动moco框架
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c postmockDemo.json
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8899 -c getmockDemo.json
+
+注解：
+./moco-runner-0.10.0-standalone.jar 指jar包所在目录（因为jar就在当前目录下所以这里使用的是相对路径）
+http 指接口使用http协议
+-p 8899 指使用8899端口
+-c startup1 指需要运行的json文件
