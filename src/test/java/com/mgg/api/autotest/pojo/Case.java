@@ -32,11 +32,11 @@ public class Case {
         PreValidateResult = preValidateResult;
     }
 
-    public String getAftVrvalidateSql() {
+    public String getAfterValidateSql() {
         return AfterValidateSql;
     }
 
-    public void setAftVrvalidateSql(String aftVrvalidateSql) {
+    public void setAfterValidateSql(String aftVrvalidateSql) {
         AfterValidateSql = aftVrvalidateSql;
     }
 

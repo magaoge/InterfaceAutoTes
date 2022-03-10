@@ -16,7 +16,7 @@ public class PropertiesUtil {
     static {
         try {
             //根据配置文件路径，将文件中的数据读入Properties对象中
-            InputStream inStream = new FileInputStream(new File("D:\\project\\InterfaceAtuoTest\\src\\main\\resources\\config.properties"));
+            InputStream inStream = new FileInputStream(new File("src/main/resources/config.properties"));
             properties.load(inStream);
         } catch (Exception e) {
             e.printStackTrace();

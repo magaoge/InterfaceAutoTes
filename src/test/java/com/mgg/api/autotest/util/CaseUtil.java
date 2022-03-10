@@ -4,6 +4,7 @@ import com.mgg.api.autotest.pojo.Case;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -64,7 +65,10 @@ public class CaseUtil {
 
         String [] callName = {"CaseID","ApiID","Parameter"};
 
+        System.out.println(Arrays.toString(callName));
+
         Object[][] sheet2 = getCaseDatasByApiId("2",callName);
+        System.out.println(Arrays.deepToString(sheet2));
 
         for (Object[] objects : sheet2) {
             for (Object object : objects) {
